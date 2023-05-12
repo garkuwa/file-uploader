@@ -6,7 +6,11 @@
   "keywords": [],
   "dependencies": {
     "express": "4.17.1",
-    "express-fileupload": "1.2.0"
+    "express-fileupload": "1.2.0",
+    "sanitize": "^2.1.2"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
   },
   "author": "",
   "license": "ISC"
